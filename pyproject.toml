@@ -186,3 +186,9 @@ skip = '.git*,*.svg,package-lock.json,i18n,*.lock,*.css,*-bundle.js,locales,exam
 check-hidden = true
 # ignore-regex = ''
 ignore-words-list = 'ans'
+
+[dependency-groups]
+dev = [
+    "ipython>=9.0.2",
+    "jupyter>=1.1.1",
+]
